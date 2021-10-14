@@ -1,0 +1,153 @@
+.containerss {
+    width: 1230px;
+    margin: 0 auto;
+}
+
+.owl-carousel.owl-loaded {
+    display: block;
+}
+
+.owl-stage-outer {
+    height: 433px;
+}
+
+.owl-carousel .owl-item img {
+    width: auto;
+}
+
+.owl-carousel .owl-item img {
+    display: block;
+    width: 100%;
+    -webkit-transform-style: preserve-3d;
+}
+
+.owl-stage {
+    transform: translate3d(0px, 0px, 0px);
+    transition: all 0s ease 0s;
+    width: 1200px;
+    display: flex;
+}
+
+.owl-item {
+    width: 370px;
+    margin-right: 30px;
+    position: relative;
+}
+
+.section-blogs .blog-image .date-time {
+    padding: 5px 26px;
+    text-align: center;
+    background: #343434;
+    color: #fff;
+    position: absolute;
+}
+
+.section-blogs .blog-image .date-time0 {
+    padding: 5px 26px;
+    text-align: center;
+    background: #343434;
+    color: #fff;
+    position: absolute;
+}
+
+.module-content ul li {
+    list-style-type: none;
+}
+
+.section-blogs .blog-image .date-time .day-month {
+    font-size: 13px;
+    display: block;
+}
+
+.section-blogs .blog-image .date-time0 .day-month {
+    font-size: 13px;
+    display: block;
+}
+
+.section-blogs .blog-image .date-time .year {
+    font-size: 20px;
+    line-height: 1;
+}
+
+.section-blogs .blog-image .date-time0 .year {
+    font-size: 20px;
+    line-height: 1;
+}
+
+li:first-child.blog-image img {
+    width: 344px !important;
+    height: 234px !important;
+}
+
+li:not(:first-child).blog-image img {
+    width: 344px !important;
+    height: 181px !important;
+}
+
+
+/* }
+
+.img {
+    width: 344px;
+    height: 181px;
+} */
+
+.blog-image img {
+    position: relative;
+}
+
+.section-blogs .blog-content .blog-title a {
+    font-size: 14px;
+    font-weight: 700;
+    color: #404040;
+}
+
+.text3line {
+    overflow: hidden;
+    display: -webkit-box;
+    -webkit-line-clamp: 3;
+    -webkit-box-orient: vertical;
+}
+
+.section-blogs .blog-content .time-comment {
+    overflow: hidden;
+    font-size: 13px;
+    color: #404040;
+    padding: 15px 0;
+    width: 100%;
+    border-top: 1px solid #ebebeb;
+}
+
+.section-blogs .blog-content .time-comment .aut-com {
+    float: right;
+    margin: 4px auto;
+}
+
+.readmore {
+    color: #636363;
+    font-size: 9px;
+    font-weight: 700;
+    text-transform: uppercase;
+    padding: 7px 15px;
+    width: 90px;
+    text-align: center;
+    border: 1px solid #bababa;
+    border-radius: 3px;
+    float: left;
+}
+
+.date-time {
+    position: absolute;
+    right: -5%;
+    top: 26%;
+}
+
+.date-time0 {
+    position: absolute;
+    right: -5%;
+    top: 41%;
+}
+
+.author {
+    margin-right: 10px;
+}
